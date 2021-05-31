@@ -26,6 +26,10 @@ Q.2-8
 
 ![image](https://user-images.githubusercontent.com/74512335/120242853-ef5e7e00-c233-11eb-94f6-c594cd501850.png)
 
+Q.2
+
+![image](https://user-images.githubusercontent.com/74512335/120244806-34d17a00-c239-11eb-9d87-80977402dee2.png)
+
 Q.3 
 
 ![image](https://user-images.githubusercontent.com/74512335/120243644-2b92de00-c236-11eb-9658-3ffeb56337c7.png)
