@@ -22,17 +22,36 @@ Questions 1-9 will be displayed as screenshots of the the incorrect code followe
 
 ![image](https://user-images.githubusercontent.com/74512335/120242106-1a47d280-c232-11eb-9045-c4d39a2582bb.png)
 
+This will not run properly due to user_id not being a field to COUNT. The following code will produce the correct answer
+
+![image](https://user-images.githubusercontent.com/74512335/120315405-54ed5180-c2aa-11eb-8a0c-a5491221f482.png)
+
+
 Q.2-8 
 
 ![image](https://user-images.githubusercontent.com/74512335/120242853-ef5e7e00-c233-11eb-94f6-c594cd501850.png)
+
+![image](https://user-images.githubusercontent.com/74512335/120316235-320f6d00-c2ab-11eb-931d-02be774f64e4.png)
+To ensure duplicate tables are not made DROP TABLE IF EXISTS is used followed by a CREATE TEMP TABLE 
 
 Q.2
 
 ![image](https://user-images.githubusercontent.com/74512335/120244806-34d17a00-c239-11eb-9d87-80977402dee2.png)
 
+The above query is incorrect because the mean is calculated used the AVG function. It must be aliased as the mean_value.
+
+![image](https://user-images.githubusercontent.com/74512335/120317177-50c23380-c2ac-11eb-9104-a85d91606dc1.png)
+
 Q.3 
 
 ![image](https://user-images.githubusercontent.com/74512335/120243644-2b92de00-c236-11eb-9658-3ffeb56337c7.png)
+
+The question is asking median number of measurements **Per User** must order by measure_count
+
+Median isnt a funciton in PostgresSQL Ordered Set Aggregate Functions is required to get the median value.
+
+![image](https://user-images.githubusercontent.com/74512335/120318572-03df5c80-c2ae-11eb-8a70-bf369a10e1ed.png)
+
 
 Q.4
 
