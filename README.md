@@ -81,9 +81,15 @@ Q.7
 
 ![image](https://user-images.githubusercontent.com/74512335/120243784-81678600-c236-11eb-85ba-5b352451d57e.png)
 
+COUNT(DISTINCT measures) does not exist because it was aliased using the AS clause to unique_measures.
+
+![image](https://user-images.githubusercontent.com/74512335/120457757-b540c980-c364-11eb-958f-14325ac36993.png)
+
 Q.8
 
 ![image](https://user-images.githubusercontent.com/74512335/120243801-8a585780-c236-11eb-8e18-5ab8ec53dd55.png)
+
+This question is asking how many users have all 3 measurements.
 
 Q.9
 
