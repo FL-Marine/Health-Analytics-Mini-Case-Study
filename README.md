@@ -32,6 +32,7 @@ Q.2-8
 ![image](https://user-images.githubusercontent.com/74512335/120242853-ef5e7e00-c233-11eb-94f6-c594cd501850.png)
 
 ![image](https://user-images.githubusercontent.com/74512335/120316235-320f6d00-c2ab-11eb-931d-02be774f64e4.png)
+
 To ensure duplicate tables are not made DROP TABLE IF EXISTS is used followed by a CREATE TEMP TABLE 
 
 Q.2
@@ -52,18 +53,29 @@ Median isnt a funciton in PostgresSQL Ordered Set Aggregate Functions is require
 
 ![image](https://user-images.githubusercontent.com/74512335/120318572-03df5c80-c2ae-11eb-8a70-bf369a10e1ed.png)
 
-
 Q.4
 
 ![image](https://user-images.githubusercontent.com/74512335/120243732-639a2100-c236-11eb-9262-5a10971d3dcd.png)
+
+This query will not work due to the HAVING clause which filters records from groups based on a specified condition. The correct clause to use is the WHERE clause because it filters data from a specific table.
+
+![image](https://user-images.githubusercontent.com/74512335/120454445-e370da00-c361-11eb-9948-438f472d1f44.png)
 
 Q.5
 
 ![image](https://user-images.githubusercontent.com/74512335/120243753-6e54b600-c236-11eb-802b-776e6248295c.png)
 
+Summing id values doesn't make sense because id values are individual per user and will not produce the intended results. The question is asking how many users which needs the COUNT clause.
+
+![image](https://user-images.githubusercontent.com/74512335/120455673-f7690b80-c362-11eb-9125-ef8516d4a983.png)
+
 Q.6
 
 ![image](https://user-images.githubusercontent.com/74512335/120243770-77de1e00-c236-11eb-9ae6-2f3a2acfca52.png)
+
+COUNT DISTINCT needs to be inside () 'blood_sugar' needs to be replaced with 'blood_glucose'
+
+![image](https://user-images.githubusercontent.com/74512335/120456531-b4f3fe80-c363-11eb-9875-a72009d7b3ae.png)
 
 Q.7
 
