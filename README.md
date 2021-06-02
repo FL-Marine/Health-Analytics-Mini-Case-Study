@@ -89,7 +89,7 @@ Q.8
 
 ![image](https://user-images.githubusercontent.com/74512335/120243801-8a585780-c236-11eb-8e18-5ab8ec53dd55.png)
 
-This question is asking how many users have all 3 measurements.
+This question is asking how many users have all 3 measurements. User was not fully spelled in the FROM clause.
 
 Q.9
 
