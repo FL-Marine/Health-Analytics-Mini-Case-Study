@@ -99,3 +99,5 @@ Q.9
 ![image](https://user-images.githubusercontent.com/74512335/120243821-93492900-c236-11eb-9911-3c8bdfbd4ab3.png)
 
 This code will not run properly because GROUP clause is missing after each WITHIN clause. blood_pressure is a string and needs to be in single quotes 'blood_pressure'.
+
+![image](https://user-images.githubusercontent.com/74512335/120615587-6d827680-c426-11eb-9ad7-486213d759a5.png)
