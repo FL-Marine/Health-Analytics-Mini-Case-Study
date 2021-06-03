@@ -101,3 +101,13 @@ Q.9
 This code will not run properly because GROUP clause is missing after each WITHIN clause. blood_pressure is a string and needs to be in single quotes 'blood_pressure'.
 
 ![image](https://user-images.githubusercontent.com/74512335/120615587-6d827680-c426-11eb-9ad7-486213d759a5.png)
+
+# Lessons Learned
+
+Debugging Code
+
+Summary statisitcs (mean & median)
+
+Sorting & filtering Data
+
+Dropping & Creating CTE's
