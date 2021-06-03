@@ -97,3 +97,5 @@ This question is asking how many users have all 3 measurements. User was not ful
 Q.9
 
 ![image](https://user-images.githubusercontent.com/74512335/120243821-93492900-c236-11eb-9911-3c8bdfbd4ab3.png)
+
+This code will not run properly because GROUP clause is missing after each WITHIN clause. blood_pressure is a string and needs to be in single quotes 'blood_pressure'.
